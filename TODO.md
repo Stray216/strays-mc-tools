@@ -1,0 +1,5 @@
+- [ ] /bin/*
+- [ ] /lib/common.sh
+- [ ] /etc/defaults.env
+- [ ] update.sh
+- [ ] Make myself a pizza
