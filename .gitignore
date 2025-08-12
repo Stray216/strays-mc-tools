@@ -41,5 +41,5 @@ folder_name/*
 **/temp/*.tmp
 
 # Ignore everything in the repository except a specific file
-*
+# *
 !important_file.txt
