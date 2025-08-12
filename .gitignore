@@ -1,0 +1,45 @@
+# ==========================================
+# .gitignore rules apply relative to where this file is located
+# and affect this directory and all subdirectories recursively.
+# Patterns are matched top-to-bottom; later rules can override earlier ones with "!".
+# ==========================================
+
+# A comment — this line is ignored
+
+# Ignore a single file in this directory
+file.txt
+
+# Ignore all files with this specific name anywhere
+**/file.txt
+
+# Ignore any file starting with this prefix
+prefix*
+
+# Ignore any file ending with this suffix
+*suffix
+
+# Ignore any file ending with this suffix and an extension
+*suffix.*
+
+# Ignore all files with this extension
+*.log
+
+# Ignore everything in a specific directory
+folder_name/
+
+# Ignore all .txt files in a specific directory
+folder_name/*.txt
+
+# Ignore files that match a single character pattern (e.g., file1.txt, fileA.txt but not file10.txt)
+file?.txt
+
+# Ignore all files in a directory but keep a specific one
+folder_name/*
+!folder_name/keep_this.txt
+
+# Ignore files by pattern in all subdirectories
+**/temp/*.tmp
+
+# Ignore everything in the repository except a specific file
+*
+!important_file.txt
